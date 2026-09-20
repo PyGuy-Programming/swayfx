@@ -424,9 +424,9 @@ animation_duration_ms <value>
 
 *animation_easing* <linear|quad|cubic|back>
 	Sets the easing curve applied to all animations (window open/close,
-	movements and workspace fades). cubic is the default and matches
-	previous behaviour. _back_ overshoots the target slightly for a
-	livelier, springy feel, while _linear_ animates at a constant speed.
+	movements and workspace fades). cubic is the default.
+	_back_ overshoots the target slightly for a livelier, springy
+	feel, while _linear_ animates at a constant speed.
 
 *assign* <criteria> [→] [workspace] [number] <workspace>
 	Assigns windows matching _criteria_ (see *CRITERIA* for details) to
