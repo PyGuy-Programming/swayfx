@@ -11,7 +11,7 @@ static const char *easing_names[] = {
 
 struct cmd_results *cmd_animation_easing(int argc, char **argv) {
 	struct cmd_results *error = NULL;
-	if ((error = checkarg(argc, "animation_easing", EXPECTED_AT_LEAST, 1))) {
+	if ((error = checkarg(argc, "animation_easing", EXPECTED_EQUAL_TO, 1))) {
 		return error;
 	}
 
